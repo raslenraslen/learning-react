@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
 
-function App() {
+const Css = () => {
   return (
     <>
       <header className="hide-when-mobile">
@@ -131,7 +130,7 @@ function App() {
         </div>
       </header>
       <main>
-        Home page <br />
+        CSS page <br />
         welcome to my page <br />
       </main>
       <footer>
@@ -140,6 +139,6 @@ function App() {
       </footer>
     </>
   );
-}
+};
 
-export default App;
+export default Css;
