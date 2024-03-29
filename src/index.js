@@ -9,6 +9,23 @@ import Home from "./pages/home";
 import Html from "./pages/html";
 import Css from "./pages/css";
 import Javascript from "./pages/javascript";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
+
+export default function index() {
+  return (
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
+      <main>This app is using the dark mode</main>
+    </ThemeProvider>
+  );
+}
 
 const router = createBrowserRouter([
   {
