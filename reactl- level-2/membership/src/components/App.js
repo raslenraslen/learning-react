@@ -1,11 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./header";
-import Team from "./team";
-import Teammember from "./teammember";
+import Header from "./Header";
+import Team from "./Team";
+import React, { Component } from "react";
 
-function App() {
-  return <h1> hello world</h1>;
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <h1>hello world</h1>
+        <Header />
+        <Team />
+      </div>
+    );
+  }
 }
-
 export default App;
