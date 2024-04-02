@@ -1,0 +1,79 @@
+.container {
+  background-color: #f0ffff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: black; */
+  float: right;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+h2 {
+  text-align: center;
+  margin-left: 500px;
+}
+
+.light-mode {
+  background-color: #ffffff; /* Couleur de fond en mode clair */
+  color: #000000; /* Couleur du texte en mode clair */
+}
+
+.dark-mode {
+  background-color: #000000; /* Couleur de fond en mode sombre */
+  color: #ffffff; /* Couleur du texte en mode sombre */
+}
+
+/* Styles for light mode button */
+.light-mode-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+/* Styles for dark mode button */
+.dark-mode-button {
+  background-color: palegreen;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+/* Toggle button style */
+.toggle-button {
+  cursor: pointer;
+  outline: none;
+}
+
+div1 {
+  float: right;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end; /* Aligner les éléments à droite */
+}
+
+.content {
+  margin-left: auto; /* Décaler vers la droite */
+}
